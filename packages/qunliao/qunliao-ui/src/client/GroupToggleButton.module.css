@@ -1,0 +1,11 @@
+.button {
+  flex: none;
+}
+
+.lit {
+  color: var(--dsw-alias-button-info-fill);
+}
+
+.label {
+  white-space: nowrap;
+}

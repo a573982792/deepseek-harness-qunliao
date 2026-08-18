@@ -1,0 +1,70 @@
+/** 群聊 UI 插件的词典：新群聊入口、建群弹窗、讨论开关与成员气泡。 */
+/** 中文词典（键集为准）。 */
+export declare const zh: {
+    readonly 'entry.label': "新群聊";
+    readonly 'entry.aria': "新建群聊";
+    readonly 'entry.hint': "创建一个由多个 AI 身份组成的群聊，成员可以按顺序讨论，也可以 @ 点名发言";
+    readonly 'modal.title': "新建群聊";
+    readonly 'modal.description': "添加成员并给每个人设定名字、身份和模型。创建后先由你发言，再打开右上角讨论开关。";
+    readonly 'modal.groupName': "群名";
+    readonly 'modal.groupNamePlaceholder': "例如：产品评审会";
+    readonly 'modal.members': "群成员";
+    readonly 'modal.memberCount': "（{n} 人）";
+    readonly 'modal.addMember': "添加成员";
+    readonly 'modal.memberName': "名字";
+    readonly 'modal.memberNamePlaceholder': "例如：小林";
+    readonly 'modal.identity': "身份设定";
+    readonly 'modal.identityPlaceholder': "例如：产品经理，负责评估需求价值";
+    readonly 'modal.emoji': "头像（可选）";
+    readonly 'modal.emojiPlaceholder': "🙂";
+    readonly 'modal.provider': "模型提供方";
+    readonly 'modal.model': "模型";
+    readonly 'modal.create': "创建群聊";
+    readonly 'modal.cancel': "取消";
+    readonly 'modal.busy': "创建中…";
+    readonly 'modal.removeMember': "移除该成员";
+    readonly 'modal.error.minMembers': "至少需要 2 位成员";
+    readonly 'modal.error.missing': "请填写群名，并给每位成员填写名字、身份与模型";
+    readonly 'modal.error.duplicate': "成员名字不能重复";
+    readonly 'modal.error.command': "创建群聊失败：{message}";
+    readonly 'modal.loadingModels': "加载模型列表…";
+    readonly 'modal.loadModelsFailed': "模型列表加载失败，可手动填写";
+    readonly 'modal.modelFallback': "（未加载到列表，请手动输入）";
+    readonly 'modal.rounds': "讨论轮数";
+    readonly 'modal.roundsHint': "开启讨论后成员最多轮流讨论几轮（1-10）";
+    readonly 'manage.members': "群成员";
+    readonly 'manage.memberCount': "（{n} 人）";
+    readonly 'manage.addMember': "添加成员";
+    readonly 'manage.addMemberTitle': "添加群成员";
+    readonly 'manage.addMemberHint': "填写名字、身份与模型，确定后新成员立即进群";
+    readonly 'manage.rounds': "讨论轮数";
+    readonly 'manage.roundsButton': "{n} 轮";
+    readonly 'manage.roundsTitle': "设置讨论轮数";
+    readonly 'manage.roundsHint': "开启讨论后成员最多轮流讨论几轮（1-10），下次开启时生效";
+    readonly 'manage.save': "保存";
+    readonly 'manage.busy': "处理中…";
+    readonly 'manage.done': "已保存";
+    readonly 'manage.error.missing': "请填写成员的名字、身份与模型";
+    readonly 'manage.error.duplicate': "成员名字不能重复";
+    readonly 'manage.error.invalidRounds': "轮数需为 1-10 的整数";
+    readonly 'manage.error.command': "操作失败：{message}";
+    readonly 'manage.mute': "闭嘴";
+    readonly 'manage.unmute': "解除";
+    readonly 'manage.mutedTag': "已闭嘴";
+    readonly 'manage.muteHint': "闭嘴后：自动讨论跳过 TA，@ TA 也不会发言；点「解除」恢复。";
+    readonly 'toggle.off': "开始讨论";
+    readonly 'toggle.on': "停止讨论";
+    readonly 'toggle.tooltip': "讨论开关：点一下成员开始按顺序发言，再点一下停止/打断";
+    readonly 'toggle.running': "停止讨论";
+    readonly 'member.says': "{name} 说";
+    readonly 'composer.hint': "输入 @ 选人即可点名成员发言";
+    readonly 'composer.placeholder': "发消息… 输入 @ 选人";
+    readonly 'composer.send': "发送";
+    readonly 'composer.stop': "停止";
+    readonly 'composer.mentionEmpty': "没有匹配的成员";
+};
+/** 英文词典。 */
+export declare const en: Record<keyof typeof zh, string>;
+/** 命名空间键。 */
+export type QunliaoUiKey = keyof typeof zh;
+//# sourceMappingURL=locales.d.ts.map
